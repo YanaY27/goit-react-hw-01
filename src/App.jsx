@@ -11,9 +11,9 @@
 
 // export default App
 import userData from "./userData.json";
-import Profile from "./components/Profile/Profile";
+import {Profile} from "./components/Profile/Profile";
 
-
+console.log(userData);
 const App = () => {
   return (
     <>
