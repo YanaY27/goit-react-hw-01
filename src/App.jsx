@@ -12,7 +12,10 @@
 // export default App
 import userData from "./userData.json";
 import {Profile} from "./components/Profile/Profile";
-
+import friends from './friends.json'
+import {FriendList} from './components/FriendList/FriendList'
+import transactions from './transactionHistory.json'
+import {TransactionHistory} from './components/TransactionHistory/TransactionHistory'
 
 console.log(userData);
 const App = () => {
@@ -25,6 +28,8 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 };

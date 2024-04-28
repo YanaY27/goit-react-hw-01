@@ -1,0 +1,31 @@
+.table {
+    border-collapse: collapse;
+    width: 600px;
+    margin: 50px auto;
+  }
+  
+  .head {
+    text-align: center;
+  }
+  .tr {
+    border: 1px solid black;
+  }
+  .title {
+    background-color: #581845 ;
+    color: white;
+border: 1px solid black;
+  }
+  
+  .td {
+    font-size: medium;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .type {
+    text-align: center;
+  }
+  
+  .backColor {
+    background-color: lightgrey;
+  }

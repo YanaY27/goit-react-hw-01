@@ -1,0 +1,22 @@
+.img {
+    margin: 0 auto;
+  }
+  
+  .name {
+    text-align: center;
+    font-weight: 400;
+    font-weight: bold;
+  }
+  
+  .status {
+    text-align: center;
+    font-size: smaller;
+  }
+  
+  .online {
+    color: green;
+  }
+  
+  .offline {
+    color: red;
+  }
